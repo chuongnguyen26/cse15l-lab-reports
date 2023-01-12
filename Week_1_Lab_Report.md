@@ -7,4 +7,5 @@
 
 ## Installing VScode
 
-- Click this link to download [https://code.visualstudio.com](https://code.visualstudio.com) VScode.
+- Click this link [https://code.visualstudio.com](https://code.visualstudio.com) to download VScode.
+- 
