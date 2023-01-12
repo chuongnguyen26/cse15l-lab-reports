@@ -5,6 +5,6 @@
 
 ---
 
-## Insalling VScode
+## Installing VScode
 
-- [https://code.visualstudio.com](https://code.visualstudio.com)
+- Click this link to download [https://code.visualstudio.com](https://code.visualstudio.com) VScode.
