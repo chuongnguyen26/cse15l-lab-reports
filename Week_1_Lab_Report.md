@@ -13,4 +13,11 @@
 ![Image-2](https://github.com/chuongnguyen26/cse15l-lab-reports/blob/main/Step-2.png)
 - In this page, pick one of the three downloading options corresponding your device located at the center to download VScode.
 - Once done downloading, open VScode. You are set and ready to code when you see the below page.
-- ![Image-3](https://github.com/chuongnguyen26/cse15l-lab-reports/blob/main/Step-3.png)
+![Image-3](https://github.com/chuongnguyen26/cse15l-lab-reports/blob/main/Step-3.png)
+
+## Remotely Connecting
+
+**First Time Use and Connecting to UCSD Account:**
+- Click this link [https://sdacs.ucsd.edu/~icc/index.php](https://sdacs.ucsd.edu/~icc/index.php) to find your ucsd user account in the page shown below. 
+- On 
+
