@@ -21,5 +21,6 @@
 - Click this link [https://sdacs.ucsd.edu/~icc/index.php](https://sdacs.ucsd.edu/~icc/index.php) to find your ucsd user account shown in the page below. 
 ![Image_4](https://github.com/chuongnguyen26/cse15l-lab-reports/blob/main/Step-6.png)
 - On this page under account lookup, log in with your user account and PID. Your submission should bring you to the page shown below.
-![Image-5](https://github.com/chuongnguyen26/cse15l-lab-reports/blob/main/Step-5.png)
+![Image-5](https://github.com/chuongnguyen26/cse15l-lab-reports/blob/main/Step-7.png)
+- Once here, click on the button below additional accounts. This will bring you to another page where you will have the option to change your global password.
 
