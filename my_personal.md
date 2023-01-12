@@ -2,4 +2,4 @@
 
 **I am a CS Major**
 
-![Warren Bear](https://www.google.com/url?sa=i&url=https%3A%2F%2Ffotospot.com%2Fattractions%2Fcalifornia%2Fwarren-bear&psig=AOvVaw1Fk2iRo8QbFy7iDOCjeNc2&ust=1673636350727000&source=images&cd=vfe&ved=0CA8QjRxqFwoTCLCE_rPbwvwCFQAAAAAdAAAAABAX)
+![Warren Bear](https://ghosty-production.s3.amazonaws.com/fotospot_spots/Warren-Bear-Fotospot_cad76aae81db894fda4874dd7d6cecb6/large.jpg)
