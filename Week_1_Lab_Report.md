@@ -31,11 +31,13 @@
 ![Image_6](https://github.com/chuongnguyen26/cse15l-lab-reports/blob/main/Step-8.png)
 - Once the terminal is opened, type ```ssh and your CSE15L account @ieng6.ucsd.edu``` into the terminal and press '**Return**'.
 - Once the command runs successfully, you will get a message asking you to type in your password that is linked to your CSE15L account. Note, the characters are hidden when you type in the password, so continue typing out your password and press '**Return**' when you are done.
+- A successful run should print out a message shown in the example below. Make sure you see this message before proceeding forward.
 ![Image_7](https://github.com/chuongnguyen26/cse15l-lab-reports/blob/main/Step-4.png)
 At this stage, you have successfully connect to your CSE15L account remotely, so lets try out some linux commands.
 
 ## Trying Some Commands
-- After connecting to your account remotely, we can finally run some linux commands. Here are some commands that you could try in the terminal. ```cd, ls, pwd, mkdir, and cp``` Note, each commands run on a separate line.
-
+- After connecting to your account remotely, we can finally run some linux commands. Here are some commands that you could try in the terminal. ```cd, ls, pwd, mkdir, and cp``` Note, each commands run on a separate line. To run the commands, press '**Return**' on your keyboard after typing the commands. 
+- A successful run should print out a message shown in the example below. Make sure you see this message before proceeding forward.
 ![Image_8](https://github.com/chuongnguyen26/cse15l-lab-reports/blob/main/Step-5.png)
+At this stage, you have successfully run some commands on your terminal. *Thank you for tuning in to my tutorial*
 
