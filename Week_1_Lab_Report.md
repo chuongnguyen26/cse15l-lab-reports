@@ -28,3 +28,6 @@
 
 **Already changed the password for CSE15L account:** 
 - To connect remotely, open your VScode and its terminal which should look like the example shown below.
+![Image_6](https://github.com/chuongnguyen26/cse15l-lab-reports/blob/main/Step-8.png)
+- Once the terminal is opened, type ```ssh and your CSE15L account @ieng6.ucsd.edu``` into the terminal.
+
