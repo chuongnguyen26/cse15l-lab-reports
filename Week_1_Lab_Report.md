@@ -10,11 +10,12 @@
 - Click this link [https://code.visualstudio.com](https://code.visualstudio.com) and the url should bring you to the page shown below.
 <!-- ![Image-1](https://github.com/chuongnguyen26/cse15l-lab-reports/blob/main/Step-1.png) -->
 ![Image-1](Step-1.png)
-<img src="Step-1.png" alt="Image-1">
 - Once at the page, click download in the top right corner. The link will bring you to another page shown below.
+![Image-2](Step-2.png)
 <img src="Step-2.png" alt="Image-2">
 - In this page, pick one of the three downloading options corresponding your device located at the center to download VScode.
 - Once done downloading, open VScode. You are set and ready to code when you see the below page.
+![Image-1](Step-3.png)
 <img src="Step-3.png" alt="Image-3">
 
 
