@@ -22,5 +22,9 @@
 ![Image_4](https://github.com/chuongnguyen26/cse15l-lab-reports/blob/main/Step-6.png)
 - To change your ucsd account password, log in with your user account and PID which are located under account lookup. Your submission should bring you to the another page shown below.
 ![Image-5](https://github.com/chuongnguyen26/cse15l-lab-reports/blob/main/Step-7.png)
-- Once here, click on the button that displays your account for CSE15l situated under additional accounts which is shown below. This will bring you to another page where you will have the option to change your global/current password.
+- Once here, click on the button that displays your account for CSE15L situated under additional accounts which is shown below. This will bring you to another page where you will have the option to change your global/current password.
 - To change your current password, click on the hyper-link "change your password" which will bring you to a password request page. In this page, you will be asked to type in your current password and new password. Once done, there will be two drop-down options under the input fields. Choose '**no**' to not change your change your Tritonlink password and '**yes**' to change your course-specific account password. Afterward, click on the last input field above the first drop down option asking if you want to change your Tritonlink account password and press '**Return**'.
+- If successful, you will see a page indicating that your new password has been successfully updated. Afterward, you will wait for 15 minutes before you begin connecting remotely via your ucsd CSE15L account.
+
+**Already changed the password for CSE15L account:** 
+- To connect remotely, open your VScode and its terminal which should look like the example shown below.
