@@ -35,6 +35,7 @@
 At this stage, you have successfully connect to your CSE15L account remotely, so lets try out some linux commands.
 
 ## Trying Some Commands
-After connecting to your account remotely, we can finally run some linux commands.
-![Image_8](https://github.com/chuongnguyen26/cse15l-lab-reports/blob/main/Step-8.png)
+- After connecting to your account remotely, we can finally run some linux commands. Here are some commands that you could try in the terminal. ```cd, ls, pwd, mkdir, and cp``` Note, each commands run on a separate line.
+
+![Image_8](https://github.com/chuongnguyen26/cse15l-lab-reports/blob/main/Step-5.png)
 
