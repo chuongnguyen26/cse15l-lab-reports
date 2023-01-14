@@ -8,10 +8,7 @@
 ## Installing VScode
 
 - Click this link [https://code.visualstudio.com](https://code.visualstudio.com) and the url should bring you to the page shown below.
-![Image-1](https://github.com/chuongnguyen26/cse15l-lab-reports/blob/main/Step-1.png | width=100)
-<p align="center">
-  <img width=100 src="https://github.com/chuongnguyen26/cse15l-lab-reports/blob/main/Step-1.png" alt="image-1"/>
-</p>
+![Image-2](https://github.com/chuongnguyen26/cse15l-lab-reports/blob/main/Step-1.png)
 - Once at the page, click download in the top right corner. The link will bring you to another page shown below.
 ![Image-2](https://github.com/chuongnguyen26/cse15l-lab-reports/blob/main/Step-2.png)
 - In this page, pick one of the three downloading options corresponding your device located at the center to download VScode.
