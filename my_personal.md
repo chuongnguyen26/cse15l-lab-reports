@@ -5,4 +5,4 @@
 ![Warren Bear](https://ghosty-production.s3.amazonaws.com/fotospot_spots/Warren-Bear-Fotospot_cad76aae81db894fda4874dd7d6cecb6/large.jpg)
 
 -Hi
-<img src="https://github.com/chuongnguyen26/cse15l-lab-reports/blob/main/Step-1.png" alt="Image-1">
+<img src="https://github.com/chuongnguyen26/cse15l-lab-reports/blob/main/Step-1.Png" alt="Image-1">
