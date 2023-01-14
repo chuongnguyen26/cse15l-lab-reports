@@ -39,5 +39,5 @@ At this stage, you have successfully connect to your CSE15L account remotely, so
 - After connecting to your account remotely, we can finally run some linux commands. Here are some commands that you could try in the terminal. ```cd, ls, pwd, mkdir, and cp``` Note, each commands run on a separate line. To run the commands, press '**Return**' on your keyboard after typing the commands. 
 - A successful run should print out a message shown in the example below. Make sure you see this message before proceeding forward.
 ![Image_8](https://github.com/chuongnguyen26/cse15l-lab-reports/blob/main/Step-5.png)
-At this stage, you have successfully run some commands on your terminal. *Thank you for tuning in to my tutorial*
+At this stage, you have successfully run some commands on your terminal. You are all set. *Thank you for tuning in to my tutorial*
 
