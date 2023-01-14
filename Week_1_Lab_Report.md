@@ -32,5 +32,5 @@
 - Once the terminal is opened, type ```ssh and your CSE15L account @ieng6.ucsd.edu``` into the terminal and press '**Return**'.
 - Once the command runs successfully, you will get a message asking you to type in your password that is linked to your CSE15L account. Note, the characters are hidden when you type in the password, so continue typing out your password and press '**Return**' when you are done.
 ![Image_7](https://github.com/chuongnguyen26/cse15l-lab-reports/blob/main/Step-4.png)
--
+-h
 
