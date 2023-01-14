@@ -36,4 +36,5 @@ At this stage, you have successfully connect to your CSE15L account remotely, so
 
 ## Trying Some Commands
 After connecting to your account remotely, we can finally run some linux commands.
+![Image_8](https://github.com/chuongnguyen26/cse15l-lab-reports/blob/main/Step-8.png)
 
