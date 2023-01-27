@@ -52,3 +52,60 @@
         - There are only two field variables in this file, and both happend to be in the handler class. The size variable which is initialized to zero will keep track of the number of elements in the Array. While the list of string array is initially set to an object with length 5 to store elements from user requests for display on the server after each valid request.
 3. How are the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
     - The values of any relevant fields will be perceived as string type when passing as requests. So no matter what type of fields the values are, the values will always be added to the list and printed out as string type. Each time a new string is added, the size of list will be incremented by one.
+
+---
+
+## Part 2
+
+- Bugs from the methodInPlace:
+    - failure-inducing input
+        ```
+        import static org.junit.Assert.*;
+        import org.junit.*;
+
+        public class ArrayTests {
+            @Test 
+            public void testReverseInPlace() {
+                int[] input3 = {1,2};
+                ArrayExamples.reverseInPlace(input3);
+                assertArrayEquals(new int[]{2,1}, input3);
+
+
+                int[] input4 = {1,2,3};
+                ArrayExamples.reverseInPlace(input4);
+                assertArrayEquals(new int[]{3,2,1}, input4);
+                assertArrayEquals(new int[]{1,2,3}, input2);
+                assertArrayEquals(new int[]{3,2,3}, input2);
+
+                int[] input5 = {1,2,3,4};
+                ArrayExamples.reverseInPlace(input5);
+                assertArrayEquals(new int[]{4,3,3,4}, input3);
+            }
+        }
+        ```
+        - These inputs will induce errors in the JUnit test because the length of list array is more that 1 index long. Since the algorithm only reverses the first half of the list and keep the second half the same, any inputs with list longer than one index, no matter if the list has odd or even amount of elements, will fail the JUnit test.
+
+    - Input not inducing failure:
+        ```
+        import static org.junit.Assert.*;
+        import org.junit.*;
+
+        public class ArrayTests {
+            @Test 
+            public void testReverseInPlace() {
+                int[] input1 = { 3 };
+                ArrayExamples.reverseInPlace(input1);
+                assertArrayEquals(new int[]{ 3 }, input1);
+
+                int[] input2 = {};
+                ArrayExamples.reverseInPlace(input2); 
+            }
+        }
+        ```
+        - These inputs will not induce a failure in the JUnit test because since the length of the array is one index or less, reversing or not reversing will both result in the identical display.
+    
+    - The symptoms:
+        - Symptoms when inputs induce error:
+        ![Image-5](photo_6.png)
+        - Symptoms when inputs do not induce error:
+        ![Image-6](photo_7.png)
