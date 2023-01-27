@@ -151,3 +151,11 @@
                 }
             }
             ```
+        ![Image_8](photo_8.png)
+
+- Briefly describe why the fix addresses the issue?
+    - The original reverseInPlace method failed the JUnit test when the length of list was greater than 1. The reason was because during the process of reversing, the method failed to store the first half of the elements, so when the setting the first half indeces equal to the second half elements, none of the first half elements were saved. Due to this reason, when setting the second half idices to the first half elements, the first half elements are now elements of the second half. Instead of reversing, this algorithm simply mirrored the values of one half to the other. To address the bug, I set the for loop to run half of the list's length value. I then store the element at index i as temporary, set index i equals to the element at index list's length subtract i and 1, and set the index list's length subtract i and 1 equals to element being stored as temporary. Doing so, I can ensure of not losing the first half elements when setting the first half idices to the second half elements. Finally to not mirror the other half, I set the second half idices to the first half emlements being temporarily stored at a local variable.
+
+---
+
+## Part 3:
