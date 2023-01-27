@@ -159,3 +159,5 @@
 ---
 
 ## Part 3:
+
+- In week 2, I learned how to create a local and remote web servers. I also learned how to manipulate paths and queries of the url, and just changing the displays regarding different requests. In week 3, I learned how to come up with more efficient test cases and the process of looking for symptoms and debugging the algorithm. The labs have taught me new skills and applications that are very useful for my programmings.
