@@ -125,5 +125,8 @@
     - The symptoms:
         - Symptoms when inputs induce error:
         ![Image-6](photo_6.png)
+            - When JUNit fails, there will be an error message displaying in the terminal. As in this example, the test failed on line 18 of ArrayTests.java file. The test expected the value 1 at index 1 but displayed 2. Normally, testing would stop immediately after encountering the first error which in this case happens at line 18 where I anticipated {2,1} to return.
+            
         - Symptoms when inputs do not induce error:
         ![Image-7](photo_7.png)
+            - For the inputs {} and { 3 }, both scenarios passed the JUnit test because both have an array length of 1 or less. As the length becomes greater than one, JUnit will start to fail as the reverseInPlace method only reverses the first half of the list while keeping the second half the same. In essence, the method mirrors values from both ends going toward the center, instead of actually reversing the order from beginning to the end.
