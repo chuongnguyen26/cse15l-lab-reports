@@ -43,7 +43,24 @@
     - In the example above, method handleRequest will be called to handle request of path equals to 'add-message' and query equals to '?s=String' which in this case is 'Hello'. 
     - Since 'Hello' is the first element in the list array with length up to 5, expandList will not be called.
 
-2. What are the relevant arguments to those methos, and the values of any relevant fields of the class? 
+2. What are the relevant arguments to those methods, and the values of any relevant fields of the class? 
+    1. Relevant Arguments:
+        - For the handleRequest method in the Handler class, the argument contains one URI object. This URI object will be used to determine the request made by the users.
+        - For the expandList method in the Handler class, the argument contains a string array which holds the same reference to the list array object. The array will be used to detemine the new length of the array after expansionl, and also to transfer all elements from the old array to the new array. Since the array has fixed length, expansion could only be possible by creating a bigger array and transfer all current elements to the neww array.
+        - For the main method in the StringServer class, the argument contains a string array that takes in all user inputs from the terminal. In this case, the value will be taken in and read as the port value for the server, while the value is valid.
+    2. Relevant Fields:
+        - There are only two field variables in this file, and both happend to be in the handler class. The size variable which is initialized to zero will keep track of the number of elements in the Array. While the list of string array is initially set to an object with length 5 to store elements from user requests for display on the server after each valid request.
+3. How are the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
+    - The values of any relevant fields will be perceived as string type when passing as requests. So no matter what type of fields the values are, the values will always be added to the list and printed out as string type. Each time a new string is added, the size of list will be incremented by one.
+
+![Image-5](photo_5.png)
+
+1. Which methods will be called?
+    - The main method in class StringServer will always be called in order for the web server to be up and running. When the web server first runs, the handleRequest method will be called to handle '/' request which will return a statement telling users the next option to choose.
+    - In the example above, method handleRequest will be called to handle request of path equals to 'add-message' and query equals to '?s=String' which in this case is 'Hello'. 
+    - Since 'Hello' is the first element in the list array with length up to 5, expandList will not be called.
+
+2. What are the relevant arguments to those methods, and the values of any relevant fields of the class? 
     1. Relevant Arguments:
         - For the handleRequest method in the Handler class, the argument contains one URI object. This URI object will be used to determine the request made by the users.
         - For the expandList method in the Handler class, the argument contains a string array which holds the same reference to the list array object. The array will be used to detemine the new length of the array after expansionl, and also to transfer all elements from the old array to the new array. Since the array has fixed length, expansion could only be possible by creating a bigger array and transfer all current elements to the neww array.
@@ -106,6 +123,6 @@
     
     - The symptoms:
         - Symptoms when inputs induce error:
-        ![Image-5](photo_6.png)
+        ![Image-6](photo_6.png)
         - Symptoms when inputs do not induce error:
-        ![Image-6](photo_7.png)
+        ![Image-7](photo_7.png)
