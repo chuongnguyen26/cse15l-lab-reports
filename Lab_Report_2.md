@@ -130,3 +130,24 @@
         - Symptoms when inputs do not induce error:
         ![Image-7](photo_7.png)
             - For the inputs {} and { 3 }, both scenarios passed the JUnit test because both have an array length of 1 or less. As the length becomes greater than one, JUnit will start to fail as the reverseInPlace method only reverses the first half of the list while keeping the second half the same. In essence, the method mirrors values from both ends going toward the center, instead of actually reversing the order from beginning to the end.
+    
+    - The bug:
+        - Before:
+            ```
+            static void reverseInPlace(int[] arr) {
+                for(int i = 0; i < arr.length; i += 1) {
+                arr[i] = arr[arr.length - i - 1];
+                }
+            }
+            ```
+
+        - After:
+            ```
+            static void reverseInPlace(int[] arr) {
+                for(int i = 0; i < arr.length/2; i += 1) {
+                int temp = arr[i];
+                arr[i] = arr[arr.length - i - 1];
+                arr[arr.length - i - 1] = temp;
+                }
+            }
+            ```
