@@ -393,7 +393,7 @@ imported drink).
 
 - This command "grep -w Bahama Bahamas-History.txt" is searching for and returning lines/paragraph within the Bahamas-History.txt file containing the string Bahama. The command-line option -w will only search for words inside the file that completely match with the word Bahama, meaning that the specified pattern, Bahama, cannot be a substring of another word such as Bahamas, but rather a word by itself.
 This command-line option is useful because this command returns lines/paragraphs
-containing that specific pattern. While command like grep -l returns lines/paragraphs containing the specified patterns or string with the specified pattern as a substring. This will return more lines/paragraphs than the user with intended to. The command grep -w narrows the resulted lines/paragraphs having Bahama or other intended pattern as a stand alone word.
+containing that specific pattern. While commands like grep -l return lines/paragraphs containing the specified patterns or string with the specified pattern as a substring. This will return more lines/paragraphs than the user would intended to. The command grep -w narrows the resulted lines/paragraphs having Bahama or other intended pattern as a stand alone word and not a substring.
 - [Citations: ChatGPT](https://chat.openai.com/chat)
 
 #### Example 2:
@@ -441,5 +441,5 @@ berlitz1/WhereToMallorca.txt:        Sant Jaume and
 Platja de Son Bou. Besides waterslides and windsurfers,
 ```
 
-- This command "grep -wr Lucayans berlitz2 " is searching for and returning text files and the lines/paragraphs inside the files within the berlitz2 directory containing the string Lucayans. The command-line option -i will ignore all cases like uppercase or lowercase characters. While r helps trace throuh all files recursively in the berlitz2 directory. This command-line option is useful when the user wants to search for a particular file containing the specified word in a directory/subdirectories but don't remember the cases of the word. In the worst case, using grep itself might return no files. So using grep -i will avoid such return.
+- This command "grep -wr Jaume berlitz1 " is searching for and returning text files and the lines/paragraphs inside the files within the berlitz1 directory containing the string Jaume. The command-line option -w will only search for files with words inside the directory Berlitz1 that completely match with the word Jaume, meaning that the specified pattern, Jaume, cannot be a substring of another word such as Jaumes, but rather a word by itself. This command-line option is useful because this command returns files with lines/paragraphs containing that specific pattern. While commands like grep -l return files with lines/paragraphs containing the specified patterns or string with the specified pattern as a substring. The command -l will return more files with lines/paragraphs than the user would intended to. The command grep -w narrows the resulted of files with lines/paragraphs having Jaume or other intended pattern as a stand alone word and not a substring.
 - [Citations: ChatGPT](https://chat.openai.com/chat)
