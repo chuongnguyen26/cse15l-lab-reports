@@ -352,3 +352,41 @@ berlitz2/Vallarta-WhereToGo.txt:0
 
 - This command "grep -cr Lucayans berlitz2" searches for the Lucayans in each files within the berlitz2 directory and return an integer value which corresponds to the amount of lines containing the specified word inside each file. The command -r helps recursive through files within the directory. In each file the command -c will search and return the number of lines with the specified word. This command-line option is useful because it lets the user know how many files contain the specified word and the number of occurences of the specified word in each file. This helps prevent the user from having to manually go through each file and look/count for the amount of occurences for the specified word.
 - [Citations: ChatGPT](https://chat.openai.com/chat)
+
+### Command-line option 3:  -w
+
+#### Example 1:
+
+``` ruby
+[cs15lwi23afp@ieng6-201]:berlitz2:507$ grep -w "Bahama" Bahamas-History.txt
+
+In 1670 six Lords Proprietors of Carolina were granted 
+the Bahama islands by Charles II, but for nearly 50 
+years their weak governors on New Providence either 
+couldn’t or wouldn’t suppress the piracy raging through 
+the archipelago. Then, in 1684, to avenge countless 
+raids against their ships, the Spanish dispatched a 
+powerful squadron from Cuba to attack Nassau. This sent 
+the majority of the English settlers fleeing to Jamaica 
+or Massachusetts, but didn’t have much effect on the 
+pirates.
+Prohibition brought gloom to millions of Americans, but 
+for the Bahamas it brought the biggest bonanza in 
+history. At the end of 1919, Congress passed the 
+Volstead Act outlawing the manufacture, sale, or 
+transport of intoxicating beverages. The Bahamian 
+islands (where the temperance crusade never had much 
+chance) were perfectly placed to help thirsty 
+Americans. For 14 years, until the controversial law 
+was finally repealed, bootlegging changed Nassau, West 
+End on Grand Bahama, and Bimini beyond recognition. 
+With just as much gusto as they’d shown in the past for 
+wrecking, privateering, and blockade running, Bahamians 
+took to the seas with illegal liquor. Trying to outwit 
+the US Coast Guard was risky but enormously profitable. 
+Fortunes were made by respected Bahamian families 
+turned liquor merchants, rum-running boat captains, 
+notorious criminals, shady ladies, and the Bahamas 
+government (which collected duty on temporarily 
+imported drink).
+```
