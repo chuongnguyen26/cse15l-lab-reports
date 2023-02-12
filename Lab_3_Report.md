@@ -248,10 +248,107 @@ berlitz2/Vallarta-WhereToGo.txt:
 berlitz2/Vallarta-WhereToGo.txt:
 ```
 
-- This command "grep -vr sistory berlitz2 " is searching for and returning text files and the lines/paragraphs inside the files within the berlitz2 directory not containing the string history. Due to a large volume of files and lines not containing the string history being returned, I took the last few files and lines displayed in the terminal to show in this report. The command-line option -v will skip over any lines and files containing the specified string. While r helps trace throuh all files recursively in the berlitz2 directory. This command-line option is useful when the user wants to filter out any files containing lines with the string history. This command-line option helps speed up and efficiently filter out non important data inside files without having the ucser to manually go to one and each file but rather just stay in the directory.
+- This command "grep -vr history berlitz2 " is searching for and returning text files and the lines/paragraphs inside the files within the berlitz2 directory not containing the string history. Due to a large volume of files and lines not containing the string history being returned, I took the last few files and lines displayed in the terminal to show in this report. The command-line option -v will skip over any lines and files containing the specified string. While r helps trace throuh all files recursively in the berlitz2 directory. This command-line option is useful when the user wants to filter out any files containing lines with the string history. This command-line option helps speed up and efficiently filter out non important data inside files without having the ucser to manually go to one and each file but rather just stay in the directory.
 - [Citations: ChatGPT](https://chat.openai.com/chat)
 
 
 ### Command-line option 3:  -c
 
 #### Example 1:
+
+``` ruby
+[cs15lwi23afp@ieng6-201]:berlitz2:503$ grep -c "Lucayans" Bahamas-History.txt 
+
+2
+```
+
+- This command "grep -c Lucayans Bahamas-History.txt" searches for the lines containing Lucayans in the Bahamas-History.txt file and counts how many of those lines exist. This command is case sensitive meaning that "Lucayans" and "lUCAYANS" are not the same. This command-line option is useful when the user wants to know how many lines in a file contain the specified word but does not want to print every single lines containing the word into the terminal.
+- [Citations: ChatGPT](https://chat.openai.com/chat)
+
+#### Example 2:
+
+```ruby
+[cs15lwi23afp@ieng6-201]:travel_guides:501$ grep -cr "Lucayans" berlitz2     
+
+berlitz2/Algarve-History.txt:0
+berlitz2/Algarve-Intro.txt:0
+berlitz2/Algarve-WhatToDo.txt:0
+berlitz2/Algarve-WhereToGo.txt:0
+berlitz2/Amsterdam-History.txt:0
+berlitz2/Amsterdam-Intro.txt:0
+berlitz2/Amsterdam-WhatToDo.txt:0
+berlitz2/Amsterdam-WhereToGo.txt:0
+berlitz2/Athens-History.txt:0
+berlitz2/Athens-Intro.txt:0
+berlitz2/Athens-WhatToDo.txt:0
+berlitz2/Athens-WhereToGo.txt:0
+berlitz2/Bahamas-History.txt:2      # Expected Result
+berlitz2/Bahamas-Intro.txt:0
+berlitz2/Bahamas-WhatToDo.txt:0
+berlitz2/Bahamas-WhereToGo.txt:0
+berlitz2/Bali-History.txt:0
+berlitz2/Bali-WhatToDo.txt:0
+berlitz2/Bali-WhereToGo.txt:0
+berlitz2/Barcelona-History.txt:0
+berlitz2/Barcelona-WhatToDo.txt:0
+berlitz2/Barcelona-WhereToGo.txt:0
+berlitz2/Beijing-History.txt:0
+berlitz2/Beijing-WhatToDo.txt:0
+berlitz2/Beijing-WhereToGo.txt:0
+berlitz2/Berlin-History.txt:0
+berlitz2/Berlin-WhatToDo.txt:0
+berlitz2/Berlin-WhereToGo.txt:0
+berlitz2/Bermuda-WhatToDo.txt:0
+berlitz2/Bermuda-WhereToGo.txt:0
+berlitz2/Bermuda-history.txt:0
+berlitz2/Boston-WhereToGo.txt:0
+berlitz2/Budapest-History.txt:0
+berlitz2/Budapest-WhatToDo.txt:0
+berlitz2/Budapest-WhereoGo.txt:0
+berlitz2/California-History.txt:0
+berlitz2/California-WhatToDo.txt:0
+berlitz2/California-WhereToGo.txt:0
+berlitz2/Canada-History.txt:0
+berlitz2/Canada-WhereToGo.txt:0
+berlitz2/CanaryIslands-History.txt:0
+berlitz2/CanaryIslands-WhatToDo.txt:0
+berlitz2/CanaryIslands-WhereToGo.txt:0
+berlitz2/Cancun-History.txt:0
+berlitz2/Cancun-WhatToDo.txt:0
+berlitz2/Cancun-WhereToGo.txt:0
+berlitz2/China-History.txt:0
+berlitz2/China-WhatToDo.txt:0
+berlitz2/China-WhereToGo.txt:0
+berlitz2/Costa-History.txt:0
+berlitz2/Costa-WhatToDo.txt:0
+berlitz2/Costa-WhereToGo.txt:0
+berlitz2/CostaBlanca-History.txt:0
+berlitz2/CostaBlanca-WhatToDo.txt:0
+berlitz2/Crete-History.txt:0
+berlitz2/Crete-WhatToDo.txt:0
+berlitz2/Crete-WhereToGo.txt:0
+berlitz2/CstaBlanca-WhereToGo.txt:0
+berlitz2/Cuba-History.txt:0
+berlitz2/Cuba-WhatToDo.txt:0
+berlitz2/Cuba-WhereToGo.txt:0
+berlitz2/Nepal-History.txt:0
+berlitz2/Nepal-WhatToDo.txt:0
+berlitz2/Nepal-WhereToGo.txt:0
+berlitz2/NewOrleans-History.txt:0
+berlitz2/Paris-WhatToDo.txt:0
+berlitz2/Paris-WhereToGo.txt:0
+berlitz2/Poland-History.txt:0
+berlitz2/Poland-WhatToDo.txt:0
+berlitz2/Portugal-History.txt:0
+berlitz2/Portugal-WhatToDo.txt:0
+berlitz2/Portugal-WhereToGo.txt:0
+berlitz2/PuertoRico-History.txt:0
+berlitz2/PuertoRico-WhatToDo.txt:0
+berlitz2/PuertoRico-WhereToGo.txt:0
+berlitz2/Vallarta-History.txt:0
+berlitz2/Vallarta-WhatToDo.txt:0
+berlitz2/Vallarta-WhereToGo.txt:0
+```
+
+- This command "grep -cr Lucayans berlitz2" searches for the specified word in each files within the berlitz2 directory and return an integer value which corresponds to the amount of lines containing the specified word inside each file. The command -r helps recursive through files within the directory. In each file the command -c will search and return the number of lines with the specified word. This command-line option is useful because it lets the user know how many files contain the specified word and the number of occurences of the specified word in each file. This helps prevent the user from having to manually go through each file and look/count for the amount of occurences for the specified word.
+- [Citations: ChatGPT](https://chat.openai.com/chat)
