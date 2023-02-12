@@ -24,7 +24,7 @@ them for the arrival of the Pinta, the Niña, and the
 Santa Maria at San Salvador on 12 October 1492. 
 Columbus believed that he had reached the East Indies 
 and mistakenly called these people Indians. We know 
-them today as the Lucayans. Columbus claimed the island 
+them today as the Lucayans. Columbus claimed the island         #Found String
 and others in the Bahamas for his royal Spanish 
 patrons, but not finding the gold and other riches he 
 was seeking, he stayed for only two weeks before 
@@ -38,7 +38,7 @@ water well — at a spot now known as “Spanish Wells” —
 which was used to replenish the supplies of water on 
 their ships before they began the long journey back to 
 Europe with their cargoes of South American gold. As 
-for the Lucayans, within 25 years all of them, perhaps 
+for the Lucayans, within 25 years all of them, perhaps          #Found String
 some 30,000 people, were removed from the Bahamas to 
 work — and die — in Spanish gold mines and on farms and 
 pearl fisheries on Hispaniola (Haiti), Cuba, and 
@@ -350,5 +350,5 @@ berlitz2/Vallarta-WhatToDo.txt:0
 berlitz2/Vallarta-WhereToGo.txt:0
 ```
 
-- This command "grep -cr Lucayans berlitz2" searches for the specified word in each files within the berlitz2 directory and return an integer value which corresponds to the amount of lines containing the specified word inside each file. The command -r helps recursive through files within the directory. In each file the command -c will search and return the number of lines with the specified word. This command-line option is useful because it lets the user know how many files contain the specified word and the number of occurences of the specified word in each file. This helps prevent the user from having to manually go through each file and look/count for the amount of occurences for the specified word.
+- This command "grep -cr Lucayans berlitz2" searches for the Lucayans in each files within the berlitz2 directory and return an integer value which corresponds to the amount of lines containing the specified word inside each file. The command -r helps recursive through files within the directory. In each file the command -c will search and return the number of lines with the specified word. This command-line option is useful because it lets the user know how many files contain the specified word and the number of occurences of the specified word in each file. This helps prevent the user from having to manually go through each file and look/count for the amount of occurences for the specified word.
 - [Citations: ChatGPT](https://chat.openai.com/chat)
