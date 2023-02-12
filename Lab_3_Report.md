@@ -1,4 +1,4 @@
-# Lab Report 2
+# Lab Report 3
 
 - Name: Chuong Nguyen
 - Email: chn021@ucsd.edu
@@ -13,8 +13,33 @@
 ``` ruby
 [cs15lwi23afp@ieng6-201]:berlitz2:547$ grep -i lUCAYANS Bahamas-History.txt
 
-Centuries before the arrival of Columbus, a peaceful Amerindian people who called themselves the Luccucairi had settled in the Bahamas. Originally from South America, they had traveled up through the Caribbean islands, surviving by cultivating modest crops and from what they caught from sea and shore. Nothing in the experience of these gentle people could have prepared them for the arrival of the Pinta, the Niña, and the Santa Maria at San Salvador on 12 October 1492. Columbus believed that he had reached the East Indies and mistakenly called these people Indians. We know them today as the Lucayans. Columbus claimed the island and others in the Bahamas for his royal Spanish patrons, but not finding the gold and other riches he was seeking, he stayed for only two weeks before sailing towards Cuba.
-The Spaniards never bothered to settle in the Bahamas, but the number of shipwrecks attest that their galleons frequently passed through the archipelago en route to and from the Caribbean, Florida, Bermuda, and their home ports. On Eleuthera the explorers dug a fresh-water well — at a spot now known as “Spanish Wells” — which was used to replenish the supplies of water on their ships before they began the long journey back to Europe with their cargoes of South American gold. As for the Lucayans, within 25 years all of them, perhaps some 30,000 people, were removed from the Bahamas to work — and die — in Spanish gold mines and on farms and pearl fisheries on Hispaniola (Haiti), Cuba, and elsewhere in the Caribbean.
+Centuries before the arrival of Columbus, a peaceful 
+Amerindian people who called themselves the Luccucairi 
+had settled in the Bahamas. Originally from South 
+America, they had traveled up through the Caribbean islands, surviving by cultivating modest crops and from 
+what they caught from sea and shore. Nothing in the 
+experience of these gentle people could have prepared 
+them for the arrival of the Pinta, the Niña, and the 
+Santa Maria at San Salvador on 12 October 1492. 
+Columbus believed that he had reached the East Indies 
+and mistakenly called these people Indians. We know 
+them today as the Lucayans. Columbus claimed the island 
+and others in the Bahamas for his royal Spanish 
+patrons, but not finding the gold and other riches he 
+was seeking, he stayed for only two weeks before sailing towards Cuba.
+The Spaniards never bothered to settle in the Bahamas, 
+but the number of shipwrecks attest that their galleons frequently passed through the archipelago en route to 
+and from the Caribbean, Florida, Bermuda, and their 
+home ports. On Eleuthera the explorers dug a fresh-
+water well — at a spot now known as “Spanish Wells” — 
+which was used to replenish the supplies of water on 
+their ships before they began the long journey back to 
+Europe with their cargoes of South American gold. As 
+for the Lucayans, within 25 years all of them, perhaps 
+some 30,000 people, were removed from the Bahamas to 
+work — and die — in Spanish gold mines and on farms and 
+pearl fisheries on Hispaniola (Haiti), Cuba, and 
+elsewhere in the Caribbean.
 ```
 
 - This command "grep -i lUCAYANS Bahamas-History.txt" is searching for and returning lines/paragraph within the Bahamas-History.txt file containing the string Lucayans. The command-line option -i will ignore all cases like uppercase or lowercase characters. This command-line option is useful when the user wants to search for a particular line containing the specified word inside a file but don't remember the cases of the word. In the worst case, using grep itself might return no lines. So using grep -i will avoid such return.
