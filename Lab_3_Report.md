@@ -361,7 +361,7 @@ berlitz2/Vallarta-WhereToGo.txt:0
 [cs15lwi23afp@ieng6-201]:berlitz2:507$ grep -w "Bahama" Bahamas-History.txt
 
 In 1670 six Lords Proprietors of Carolina were granted 
-the Bahama islands by Charles II, but for nearly 50 
+the Bahama islands by Charles II, but for nearly 50             #Found String
 years their weak governors on New Providence either 
 couldn’t or wouldn’t suppress the piracy raging through 
 the archipelago. Then, in 1684, to avenge countless 
@@ -379,7 +379,7 @@ islands (where the temperance crusade never had much
 chance) were perfectly placed to help thirsty 
 Americans. For 14 years, until the controversial law 
 was finally repealed, bootlegging changed Nassau, West 
-End on Grand Bahama, and Bimini beyond recognition. 
+End on Grand Bahama, and Bimini beyond recognition.             #Found String
 With just as much gusto as they’d shown in the past for 
 wrecking, privateering, and blockade running, Bahamians 
 took to the seas with illegal liquor. Trying to outwit 
@@ -390,3 +390,63 @@ notorious criminals, shady ladies, and the Bahamas
 government (which collected duty on temporarily 
 imported drink).
 ```
+
+- This command "grep -w Bahama Bahamas-History.txt" is searching for and returning lines/paragraph within the Bahamas-History.txt file containing the string Bahama. The command-line option -w will only search for words inside the file that completely match with the word Bahama, meaning that the specified pattern, Bahama, cannot be a substring of another word such as Bahamas, but rather a word by itself.
+This command-line option is useful because this command returns lines/paragraphs
+containing that specific pattern. While command like grep -l returns lines/paragraphs containing the specified patterns or string with the specified pattern as a substring. This will return more lines/paragraphs than the user with intended to. The command grep -w narrows the resulted lines/paragraphs having Bahama or other intended pattern as a stand alone word.
+- [Citations: ChatGPT](https://chat.openai.com/chat)
+
+#### Example 2:
+
+```ruby
+[cs15lwi23afp@ieng6-201]:travel_guides:531$ grep -wr "Milan" berlitz1
+berlitz1/HistoryFrance.txt:        had crushed the Duke of Milan’s army at Marignano and formed a showy
+berlitz1/HistoryIstanbul.txt:        friend Maximian ruled the west from Milan — and later to split it
+berlitz1/HistoryItaly.txt:        In its fertile Po valley, Milan prospered from trade with
+berlitz1/HistoryItaly.txt:        the Duchy of Milan. Genoa sided with the Spanish to give Emperor
+berlitz1/HistoryItaly.txt:        Charles V access, via Milan, to his German territories, and later
+berlitz1/HistoryItaly.txt:        Archbishop of Milan (1565–1584), was the exemplary spiritual leader of
+berlitz1/HistoryItaly.txt:        Milan’s new Flamboyant Gothic cathedral, which took centuries to
+berlitz1/HistoryItaly.txt:        Milan, and La Fenice opened in Venice. Stimulated by the ideas of
+berlitz1/HistoryItaly.txt:        Outright rebellion erupted in Milan on 18 March 1848, a
+berlitz1/HistoryItaly.txt:        nearby cities for reinforcements that freed Milan from the
+berlitz1/HistoryItaly.txt:        •600s Lombards invade Milan and much of Italy; Venice
+berlitz1/HistoryItaly.txt:        •Naples and Milan
+berlitz1/HistoryItaly.txt:        •1778La Scala theatre opens in Milan
+berlitz1/IntroItaly.txt:        Row but in the meticulous workshops of Milan, Florence, and Rome. The
+berlitz1/IntroItaly.txt:        and industrial plain of the Po, stretching from Turin and Milan across
+berlitz1/IntroItaly.txt:        •Major cities: Milan (1,500,000), Naples (1,200,000), Turin
+berlitz1/WhatToItaly.txt:        teams are studded with top stars in Turin (Juventus and Torino), Milan
+berlitz1/WhatToItaly.txt:        Monza, near Milan, or at Imola, near Bologna.
+berlitz1/WhatToItaly.txt:        of course, Milan’s La Scala (see page 151), showcasing the works of
+berlitz1/WhatToItaly.txt:        are also in Milan’s Conservatorio and Rome’s Accademia Filarmonica
+berlitz1/WhatToItaly.txt:        Milan seems to have the best selection. There are also many nightclubs
+berlitz1/WhatToItaly.txt:        Milan, the latter famous for Giorgio Strehler’s Piccolo Teatro,
+berlitz1/WhatToItaly.txt:        for the foreign visitor. The luxury goods of Milan, Venice, Rome, and
+berlitz1/WhatToItaly.txt:        If it has ceded to Milan its place as Italy’s fashion
+berlitz1/WhatToItaly.txt:        Shopping in Milan
+berlitz1/WhatToItaly.txt:        With the commercial leadership of the country, Milan has
+berlitz1/WhereToItaly.txt:        Emilia’s historic towns from Parma to Ravenna; Milan for Lombardy,
+berlitz1/WhereToItaly.txt:        with the artistic delights of Florence and Tuscany, or Milan with the
+berlitz1/WhereToItaly.txt:        say, from Milan to Rome or down to Naples, is most enjoyed by train
+berlitz1/WhereToItaly.txt:        departure for Milan (1481), reveals his revolutionary power of
+berlitz1/WhereToItaly.txt:        see in the monstrosity of Milan’s central station.
+berlitz1/WhereToItaly.txt:        fortune of its three great cities — Milan, Turin, and Genoa. If the
+berlitz1/WhereToItaly.txt:        latter has drawn on the riches of the seas, Milan and Turin, in close
+berlitz1/WhereToItaly.txt:        Milan are the romantic lakes Como, Maggiore, and Garda.
+berlitz1/WhereToItaly.txt:        Milan
+berlitz1/WhereToItaly.txt:        government to Rome, Milan prides itself on being the country’s
+berlitz1/WhereToItaly.txt:        magnificent Gothic cathedral, tourists do not think of Milan as an
+berlitz1/WhereToItaly.txt:        Milan’s most prestigious retail thoroughfare is Via Monte
+berlitz1/WhereToItaly.txt:        (340–397), first bishop of Milan and one of the Church’s four founding
+berlitz1/WhereToItaly.txt:        neighborhood, Milan’s “Greenwich Village,” after your museum visit; it
+berlitz1/WhereToItaly.txt:        The Lombards’ first capital, before Milan, is now a
+berlitz1/WhereToItaly.txt:        Milan. Built by the powerful Gian Galeazzo Visconti, Duke of Milan, as
+berlitz1/WhereToItaly.txt:        little hill, 47 km (29 miles) east of Milan, the delightful town of
+berlitz1/WhereToItaly.txt:        for a savory rendition of risotto they insist is superior to Milan’s.
+berlitz1/WhereToItaly.txt:        less than an hour from Milan by train or car). As at Garda, a mild
+berlitz1/WhereToItaly.txt:        the Borromeo family that provided Milan with its greatest cardinals.
+```
+
+- This command "grep -wr Lucayans berlitz2 " is searching for and returning text files and the lines/paragraphs inside the files within the berlitz2 directory containing the string Lucayans. The command-line option -i will ignore all cases like uppercase or lowercase characters. While r helps trace throuh all files recursively in the berlitz2 directory. This command-line option is useful when the user wants to search for a particular file containing the specified word in a directory/subdirectories but don't remember the cases of the word. In the worst case, using grep itself might return no files. So using grep -i will avoid such return.
+- [Citations: ChatGPT](https://chat.openai.com/chat)
