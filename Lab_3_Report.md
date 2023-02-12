@@ -399,53 +399,46 @@ containing that specific pattern. While command like grep -l returns lines/parag
 #### Example 2:
 
 ```ruby
-[cs15lwi23afp@ieng6-201]:travel_guides:531$ grep -wr "Milan" berlitz1
-berlitz1/HistoryFrance.txt:        had crushed the Duke of Milan’s army at Marignano and formed a showy
-berlitz1/HistoryIstanbul.txt:        friend Maximian ruled the west from Milan — and later to split it
-berlitz1/HistoryItaly.txt:        In its fertile Po valley, Milan prospered from trade with
-berlitz1/HistoryItaly.txt:        the Duchy of Milan. Genoa sided with the Spanish to give Emperor
-berlitz1/HistoryItaly.txt:        Charles V access, via Milan, to his German territories, and later
-berlitz1/HistoryItaly.txt:        Archbishop of Milan (1565–1584), was the exemplary spiritual leader of
-berlitz1/HistoryItaly.txt:        Milan’s new Flamboyant Gothic cathedral, which took centuries to
-berlitz1/HistoryItaly.txt:        Milan, and La Fenice opened in Venice. Stimulated by the ideas of
-berlitz1/HistoryItaly.txt:        Outright rebellion erupted in Milan on 18 March 1848, a
-berlitz1/HistoryItaly.txt:        nearby cities for reinforcements that freed Milan from the
-berlitz1/HistoryItaly.txt:        •600s Lombards invade Milan and much of Italy; Venice
-berlitz1/HistoryItaly.txt:        •Naples and Milan
-berlitz1/HistoryItaly.txt:        •1778La Scala theatre opens in Milan
-berlitz1/IntroItaly.txt:        Row but in the meticulous workshops of Milan, Florence, and Rome. The
-berlitz1/IntroItaly.txt:        and industrial plain of the Po, stretching from Turin and Milan across
-berlitz1/IntroItaly.txt:        •Major cities: Milan (1,500,000), Naples (1,200,000), Turin
-berlitz1/WhatToItaly.txt:        teams are studded with top stars in Turin (Juventus and Torino), Milan
-berlitz1/WhatToItaly.txt:        Monza, near Milan, or at Imola, near Bologna.
-berlitz1/WhatToItaly.txt:        of course, Milan’s La Scala (see page 151), showcasing the works of
-berlitz1/WhatToItaly.txt:        are also in Milan’s Conservatorio and Rome’s Accademia Filarmonica
-berlitz1/WhatToItaly.txt:        Milan seems to have the best selection. There are also many nightclubs
-berlitz1/WhatToItaly.txt:        Milan, the latter famous for Giorgio Strehler’s Piccolo Teatro,
-berlitz1/WhatToItaly.txt:        for the foreign visitor. The luxury goods of Milan, Venice, Rome, and
-berlitz1/WhatToItaly.txt:        If it has ceded to Milan its place as Italy’s fashion
-berlitz1/WhatToItaly.txt:        Shopping in Milan
-berlitz1/WhatToItaly.txt:        With the commercial leadership of the country, Milan has
-berlitz1/WhereToItaly.txt:        Emilia’s historic towns from Parma to Ravenna; Milan for Lombardy,
-berlitz1/WhereToItaly.txt:        with the artistic delights of Florence and Tuscany, or Milan with the
-berlitz1/WhereToItaly.txt:        say, from Milan to Rome or down to Naples, is most enjoyed by train
-berlitz1/WhereToItaly.txt:        departure for Milan (1481), reveals his revolutionary power of
-berlitz1/WhereToItaly.txt:        see in the monstrosity of Milan’s central station.
-berlitz1/WhereToItaly.txt:        fortune of its three great cities — Milan, Turin, and Genoa. If the
-berlitz1/WhereToItaly.txt:        latter has drawn on the riches of the seas, Milan and Turin, in close
-berlitz1/WhereToItaly.txt:        Milan are the romantic lakes Como, Maggiore, and Garda.
-berlitz1/WhereToItaly.txt:        Milan
-berlitz1/WhereToItaly.txt:        government to Rome, Milan prides itself on being the country’s
-berlitz1/WhereToItaly.txt:        magnificent Gothic cathedral, tourists do not think of Milan as an
-berlitz1/WhereToItaly.txt:        Milan’s most prestigious retail thoroughfare is Via Monte
-berlitz1/WhereToItaly.txt:        (340–397), first bishop of Milan and one of the Church’s four founding
-berlitz1/WhereToItaly.txt:        neighborhood, Milan’s “Greenwich Village,” after your museum visit; it
-berlitz1/WhereToItaly.txt:        The Lombards’ first capital, before Milan, is now a
-berlitz1/WhereToItaly.txt:        Milan. Built by the powerful Gian Galeazzo Visconti, Duke of Milan, as
-berlitz1/WhereToItaly.txt:        little hill, 47 km (29 miles) east of Milan, the delightful town of
-berlitz1/WhereToItaly.txt:        for a savory rendition of risotto they insist is superior to Milan’s.
-berlitz1/WhereToItaly.txt:        less than an hour from Milan by train or car). As at Garda, a mild
-berlitz1/WhereToItaly.txt:        the Borromeo family that provided Milan with its greatest cardinals.
+[cs15lwi23afp@ieng6-201]:travel_guides:534$ grep -wr "Jaume" berlitz1
+
+berlitz1/HistoryMallorca.txt:        On 10 September 
+1229, a Catalan army led by King Jaume I of
+berlitz1/HistoryMallorca.txt:        resistance 
+throughout the island were also defeated. Jaume I 
+proved to
+berlitz1/HistoryMallorca.txt:        Jaume I died after 
+reigning in Aragón for six decades, but
+berlitz1/HistoryMallorca.txt:        Independent 
+Kingdom of Mallorca, under Jaume II, followed by Sanç 
+and
+berlitz1/HistoryMallorca.txt:        Jaume III. But 
+family rivalry triggered the overthrow of Jaume III by
+berlitz1/HistoryMallorca.txt:        Attempting a 
+comeback, Jaume was killed in battle near Llucmajor in
+berlitz1/WhatToMallorca.txt:        Jaume III, Passeig 
+d’es Born, and Conquistador. Look out for jewelry
+berlitz1/WhatToMallorca.txt:        along carrer 
+Plateria, and try carrer Jaume II for clothing and 
+fans.
+berlitz1/WhatToMallorca.txt:        Balear de Golf, 
+Avinguda del Rei Jaume III, 17, Palma (Tel. 971/72 27
+berlitz1/WhatToMallorca.txt:        and Sant Jaume on 
+Menorca. More sedate is Marineland, west of Palma at
+berlitz1/WhereToMallorca.txt:        the island from 
+the Moors. King Jaume made an emphatic political point
+berlitz1/WhereToMallorca.txt:        construction in 
+the early 14th century by order of King Jaume II. The
+berlitz1/WhereToMallorca.txt:        a ruined fortress 
+built by King Jaume I during the Moorish era. You can
+berlitz1/WhereToMallorca.txt:        imitations of the 
+originals. ) The sturdy Gothic church of Sant Jaume
+berlitz1/WhereToMallorca.txt:        little Museu 
+Monogràfic, a nicely restored building opposite Sant 
+Jaume
+berlitz1/WhereToMallorca.txt:        the pick of inland 
+towns. Built on the site King Jaume II chose to
+berlitz1/WhereToMallorca.txt:        Sant Jaume and 
+Platja de Son Bou. Besides waterslides and windsurfers,
 ```
 
 - This command "grep -wr Lucayans berlitz2 " is searching for and returning text files and the lines/paragraphs inside the files within the berlitz2 directory containing the string Lucayans. The command-line option -i will ignore all cases like uppercase or lowercase characters. While r helps trace throuh all files recursively in the berlitz2 directory. This command-line option is useful when the user wants to search for a particular file containing the specified word in a directory/subdirectories but don't remember the cases of the word. In the worst case, using grep itself might return no files. So using grep -i will avoid such return.
