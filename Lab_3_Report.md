@@ -46,6 +46,7 @@ elsewhere in the Caribbean.
 ```
 
 - This command "grep -i lUCAYANS Bahamas-History.txt" is searching for and returning lines/paragraph within the Bahamas-History.txt file containing the string Lucayans. The command-line option -i will ignore all cases like uppercase or lowercase characters. This command-line option is useful when the user wants to search for a particular line containing the specified word inside a file but don't remember the cases of the word. In the worst case, using grep itself might return no lines. So using grep -i will avoid such return.
+- [Citations: ChatGPT](https://chat.openai.com/chat)
 
 #### Example 2:
 
@@ -68,6 +69,7 @@ Columbus claimed the island and others in the Bahamas
 for his royal Spanish patrons, but not finding the gold 
 and other riches he was seeking, he stayed for only two 
 weeks before sailing towards Cuba.
+
 berlitz2/Bahamas-History.txt:The Spaniards never 
 bothered to settle in the Bahamas, but the number of 
 shipwrecks attest that their galleons frequently passed 
@@ -86,6 +88,8 @@ the Caribbean.
 ```
 
 - This command "grep -ir lUcAyAnS berlitz2 " is searching for and returning text files and the lines/paragraphs inside the files within the berlitz2 directory containing the string Lucayans. The command-line option -i will ignore all cases like uppercase or lowercase characters. While r helps trace throuh all files recursively in the berlitz2 directory. This command-line option is useful when the user wants to search for a particular file containing the specified word in a directory/subdirectories but don't remember the cases of the word. In the worst case, using grep itself might return no files. So using grep -i will avoid such return.
+- [Citations: ChatGPT](https://chat.openai.com/chat)
+
 
 ### Command-line option 2:  -v
 
@@ -109,6 +113,8 @@ Then, to the astonishment of the local populace, the Duke of Windsor, having giv
 ```
 
 - This command "grep -v Bahama Bahamas-History.txt" is searching for and returning lines/paragraph within the Bahamas-History.txt file not containing the string Bahama. The command-line option -v will ignore all lines/paragraphs containing the specified string. This command is case sensitive meaning that "Bahama" and "bAHAMA" are not the same.This command-line option is useful when the user wants to filter out lines/paragraphs containing the specified string.
+- [Citations: ChatGPT](https://chat.openai.com/chat)
+
 
 #### Example 2:
 
@@ -132,7 +138,9 @@ berlitz2/Vallarta-WhereToGo.txt:
 ```
 
 - This command "grep -vr sistory berlitz2 " is searching for and returning text files and the lines/paragraphs inside the files within the berlitz2 directory not containing the string history. Due to a large volume of files and lines not containing the string history being returned, I took the last few files and lines displayed in the terminal to show in this report. The command-line option -v will skip over any lines and files containing the specified string. While r helps trace throuh all files recursively in the berlitz2 directory. This command-line option is useful when the user wants to filter out any files containing lines with the string history. This command-line option helps speed up and efficiently filter out non important data inside files without having the ucser to manually go to one and each file but rather just stay in the directory.
+- [Citations: ChatGPT](https://chat.openai.com/chat)
 
-### Command-line option 1:  -c
+
+### Command-line option 3:  -c
 
 #### Example 1:
