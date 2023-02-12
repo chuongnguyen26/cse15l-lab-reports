@@ -64,7 +64,7 @@ gentle people could have prepared them for the arrival
 of the Pinta, the Niña, and the Santa Maria at San 
 Salvador on 12 October 1492. Columbus believed that he 
 had reached the East Indies and mistakenly called these 
-people Indians. We know them today as the Lucayans. 
+people Indians. We know them today as the Lucayans.             #Found String
 Columbus claimed the island and others in the Bahamas 
 for his royal Spanish patrons, but not finding the gold 
 and other riches he was seeking, he stayed for only two 
@@ -78,7 +78,7 @@ Eleuthera the explorers dug a fresh-water well — at a
 spot now known as “Spanish Wells” — which was used to 
 replenish the supplies of water on their ships before 
 they began the long journey back to Europe with their 
-cargoes of South American gold. As for the Lucayans, 
+cargoes of South American gold. As for the Lucayans,            #Found String
 within 25 years all of them, perhaps some 30,000 
 people, were removed from the Bahamas to work — and die 
 — in Spanish gold mines and on farms and pearl 
