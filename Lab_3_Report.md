@@ -16,7 +16,8 @@
 Centuries before the arrival of Columbus, a peaceful 
 Amerindian people who called themselves the Luccucairi 
 had settled in the Bahamas. Originally from South 
-America, they had traveled up through the Caribbean islands, surviving by cultivating modest crops and from 
+America, they had traveled up through the Caribbean 
+islands, surviving by cultivating modest crops and from 
 what they caught from sea and shore. Nothing in the 
 experience of these gentle people could have prepared 
 them for the arrival of the Pinta, the Niña, and the 
@@ -28,7 +29,8 @@ and others in the Bahamas for his royal Spanish
 patrons, but not finding the gold and other riches he 
 was seeking, he stayed for only two weeks before sailing towards Cuba.
 The Spaniards never bothered to settle in the Bahamas, 
-but the number of shipwrecks attest that their galleons frequently passed through the archipelago en route to 
+but the number of shipwrecks attest that their galleons 
+frequently passed through the archipelago en route to 
 and from the Caribbean, Florida, Bermuda, and their 
 home ports. On Eleuthera the explorers dug a fresh-
 water well — at a spot now known as “Spanish Wells” — 
