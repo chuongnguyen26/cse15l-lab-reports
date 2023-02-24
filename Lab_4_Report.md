@@ -3,6 +3,7 @@
 - Name: Chuong Nguyen
 - Email: chn021@ucsd.edu
 ---
+Note: normal spaces are not part of the command line and are only for the usage of styling. Spaces that are part of the command line will be in this form of `<space>`.
 
 ### Step 1 : Log into ieng6
 
@@ -119,4 +120,4 @@ Key Pressed: `<up><up><up><up><enter>`
 
 Key Pressed: `<Ctrl-r> add <enter><<Ctrl-r> commit <enter> <Ctrl-r> push <enter>`
 
-The git add ListExamples.java adds the newly updated file to the group of changes already made. "**Ctrl-r**" enables history search of the pattern "add". Once I found the correct command line of git add, I pressed enter to add the updated 
+The git add ListExamples.java adds the newly updated file to the group of changes already made. "**Ctrl-r**" enables history search of the pattern "add". Once I found the correct command line of git add, I pressed "**enter**" to run the command and add the updated ListExamples.java file to a list of new changes ready for commit. The git commit -m "updated" commits all changes made in the local machine to the git repo. "**Ctrl-r**" enables history search of the pattern "commit". Once I found the correct command line of git commit, I pressed "**enter**" to run the command and commit the updated ListExamples.java file and all changes made ready for push to git repo. The git push main origin pushes all committed changes made in the local machine to the git repo. "**Ctrl-r**" enables history search of the pattern "push". Once I found the correct command line of git push, I pressed "**enter**" to run the command and push the commited ListExamples.java file and all changes to the git repo. 
