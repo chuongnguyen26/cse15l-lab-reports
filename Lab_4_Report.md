@@ -1,0 +1,58 @@
+# Lab Report 4
+
+- Name: Chuong Nguyen
+- Email: chn021@ucsd.edu
+---
+
+### Step 1 : Log into ieng6
+
+![Image1](/Lab_4_Photos/Image1.png)
+
+![Image1](/Lab_4_Photos/Image2.png)
+
+Key Pressed: 
+```
+<Ctrl-R> ssh <enter>
+```
+
+The ssh cs15lwi23afp@ieng6.ucsd.edu command was in the search history. But since I don't know where exactly in the search history, I pressed "**Ctrl-R**" to enable search command and searched for the "ssh" pattern. When I found the correct "ssh" command, I pressed "**enter**" to run the "ssh" command line. Since I know that I only use ssh for logging in, searching for the command pattern in the search history will be faster. 
+
+---
+
+### Step 2 : Clone your fork of the repository from your Github account
+
+![Image1](/Lab_4_Photos/Image3.png)
+
+
+![Image1](/Lab_4_Photos/Image4.png)
+
+Key Pressed:
+```
+<Ctrl-R> git <enter>
+```
+
+The git clone https://github.com/ucsd-cse15l-w23/skill-demo1-data command was in the search history. But since I don't know where exactly in the search history, I pressed "**Ctrl-R**" to enable search command and searched for the "git" pattern. When I found the correct "git" command, I pressed "**enter**" to run the "git" command line and start cloning the git repo. Since I know that "git clone" lab7 repo was the most recent "git clone" command line I called, by searching "git" pattern should give me the correct git clone command of lab7 repo.
+
+---
+
+### Step 3 : Run the tests, demonstrating that they fail
+
+![Image1](/Lab_4_Photos/Image5.png)
+
+Key Pressed
+```
+cd l <tab><enter>
+```
+
+The cd lab7/ command changes my current directory to lab7. Since I know that lab7 is the only sub-directory in my current directory, I pressed "**tab**" to autofill the name of the sub-directory after finished typing "cd l". Once autofill is completed, I pressed "**enter**" to run the command line and change my directory to lab7.
+
+![Image1](/Lab_4_Photos/Image6.png)
+
+![Image1](/Lab_4_Photos/Image7.png)
+
+
+### Step 4 : Edit the code file to fix the failing test
+
+### Step 5 : Run the tests, demonstrating that they now succeed
+ 
+### Step 6 : Commit and push the resulting change to your Github account
