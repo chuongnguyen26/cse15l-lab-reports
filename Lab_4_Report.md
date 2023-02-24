@@ -25,7 +25,7 @@ Key Pressed: `<Ctrl-r> ssh <enter>`
 
 Key Pressed: `<Ctrl-r> git <enter>`
 
-* The git clone https://github.com/ucsd-cse15l-w23/skill-demo1-data command was in the search history. But since I don't know where exactly in the search history, I pressed "**Ctrl-R**" to enable search command and searched for the "git" pattern. When I found the correct "git" command, I pressed "**enter**" to run the "git" command line and start cloning the git repo. Since I know that "git clone" lab7 repo was the most recent "git clone" command line I called, by searching "git" pattern should give me the correct git clone command of lab7 repo.
+* The git clone git@github.com:chuongnguyen26/lab7.git command was in the search history. But since I don't know where exactly in the search history, I pressed "**Ctrl-R**" to enable search command and searched for the "git" pattern. When I found the correct "git" command, I pressed "**enter**" to run the "git" command line and start cloning the git repo. Since I know that "git clone" lab7 repo was the most recent "git clone" command line I called, by searching "git" pattern should give me the correct git clone command of lab7 repo.
 
 ---
 
@@ -55,7 +55,7 @@ Key Pressed: `<Ctrl-r> javac <enter>`
 
 Key Pressed: `<Ctrl-r> java <space><enter>`
 
-* The java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests command was in the search history. But since I don't know where exactly in the search history, I pressed "**Ctrl-R**" to enable search command and searched for the "java" pattern. But since "javac" also contains the substring "java", typing "java" alone won't be helpful. To have the pattern "java" stands as its own word, press "**space**" immediately after "java". Once I found the correct "java" command, I pressed "**enter**" to run the "java" command line that will run the TestListExamples file. Since I know that I only ran "java" command line on TestListExamples file prior to the competition, by searching through the search history with the pattern "java**space**>" will give me the correct command line.
+* The java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests command was in the search history. But since I don't know where exactly in the search history, I pressed "**Ctrl-R**" to enable search command and searched for the "java" pattern. But since "javac" also contains the substring "java", typing "java" alone won't be helpful. To have the pattern "java" stands as its own word, press "**space**" immediately after "java". Once I found the correct "java" command, I pressed "**enter**" to run the "java" command line that will run the ListExamplesTests file. Since I know that I only ran "java" command line on ListExamplesTests file prior to the competition, by searching through the search history with the pattern "java**space**>" will give me the correct command line.
 
 ---
 
@@ -92,5 +92,31 @@ Key Pressed: `<Ctrl-o><enter><Ctrl-x>`
 Once done, I pressed "**Ctrl-o**" to initiate the same of my updated ListExamples.java file. I then pressed "**enter**" to save the newly updated code block to the ListExamples.java file. Afterward, I pressed "**Ctrl-x**" to exit the nano text editor and return to my terminal.
 
 ### Step 5 : Run the tests, demonstrating that they now succeed
- 
+
+![Image1](/Lab_4_Photos/Image14.png)
+
+![Image1](/Lab_4_Photos/Image15.png)
+
+Key Pressed: `<Ctrl-r> javac <enter>`
+
+* The javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java command was in the search history. But since I don't know where exactly in the search history, I pressed "**Ctrl-R**" to enable search command and searched for the "javac" pattern. When I found the correct "javac" command, I pressed "**enter**" to run the "javac" command line and start compiling all java files in the directory. Since I know that "javac" of files in lab7 was the most recent "javac" type command line I called, by searching "javac" pattern should give me the correct javac command line to compile all java files exist in lab7.
+
+---
+
+![Image1](/Lab_4_Photos/Image16.png)
+
+Key Pressed: `<up><up><up><up><enter>`
+
+* The java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests command was in the search history. But since I do know where exactly in the search history and that I can't use "Ctrl-r" to search because "nano ListExamples.java" was the most recent call that contained java, so I pressed "**up**" the java command. Once I found the correct "java" command, I pressed "**enter**" to run the "java" command line that will run the ListExamplesTests file. 
+
+---
+
 ### Step 6 : Commit and push the resulting change to your Github account
+
+![Image1](/Lab_4_Photos/Image17.png)
+
+![Image1](/Lab_4_Photos/Image18.png)
+
+Key Pressed: `<Ctrl-r> add <enter><<Ctrl-r> commit <enter> <Ctrl-r> push <enter>`
+
+The git add ListExamples.java adds the newly updated file to the group of changes already made. "**Ctrl-r**" enables history search of the pattern "add". Once I found the correct command line of git add, I pressed enter to add the updated 
