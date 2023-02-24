@@ -70,7 +70,7 @@ Key Pressed
 <Ctrl-R> java <space><enter>
 ```
 
-* The java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore TestListExamples command was in the search history. But since I don't know where exactly in the search history, I pressed "**Ctrl-R**" to enable search command and searched for the "javac" pattern. When I found the correct "javac" command, I pressed "**enter**" to run the "javac" command line and start compiling all java files in the directory. Since I know that "javac" of files in lab7 was the most recent "javac" type command line I called, by searching "javac" pattern should give me the correct javac command line to compile all java files exist in lab7.
+* The java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore TestListExamples command was in the search history. But since I don't know where exactly in the search history, I pressed "**Ctrl-R**" to enable search command and searched for the "java" pattern. But since "javac" also contains the substring "java", typing "java" alone won't be helpful. To have the pattern "java" stands as its own word, press "**space**" immediately after "java". Once I found the correct "java" command, I pressed "**enter**" to run the "java" command line that will run the TestListExamples file. Since I know that I only ran "java" command line on TestListExamples file prior to the competition, by searching through the search history with the pattern "java**space**>" will give me the correct command line.
 
 ### Step 4 : Edit the code file to fix the failing test
 
