@@ -55,3 +55,19 @@
 ![Image5](/Report_5_Images/Image5.png)
 
 - Since Javac can't compile, the script with throw an error message stating that Javac has failed to compile.
+
+---
+
+Repo 5 Link: https://github.com/ucsd-cse15l-f22/list-methods-filename
+
+![Image6](/Report_5_Images/Image6.png)
+
+Since the implementation was saved in a different file, bash script will throw an error regarding the existent of ListExample.java file.
+
+---
+
+Repo 6 Link: https://github.com/ucsd-cse15l-f22/list-methods-nested
+
+![Image7](/Report_5_Images/Image7.png)
+
+Although the implementation was saved in the expected ListExample.java file, since the file was in a pa1 directory wihtin the student-submission directory, therefore bash script will not be able to find the file so it will throw an error regarding file not found.
