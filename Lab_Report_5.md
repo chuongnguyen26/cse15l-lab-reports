@@ -38,6 +38,20 @@
 
 ---
 
-- Repo 2 Link: https://github.com/ucsd-cse15l-f22/list-methods-lab3
+- Repo 2 Link: https://github.com/ucsd-cse15l-f22/list-methods-corrected
 
-![Image2](/Report_5_Images/Image2.png)
+![Image3](/Report_5_Images/Image3.png)
+
+---
+- Repo 3 Link: https://github.com/ucsd-cse15l-f22/list-methods-compile-error
+
+![Image4](/Report_5_Images/Image4.png)
+
+- Since Javac can't compile, the script with throw an error message stating that Javac has failed to compile.
+---
+
+- Repo 4 Link: https://github.com/ucsd-cse15l-f22/list-methods-signature
+
+![Image5](/Report_5_Images/Image5.png)
+
+- Since Javac can't compile, the script with throw an error message stating that Javac has failed to compile.
